@@ -1,11 +1,12 @@
-import BettingForm from "./BettingForm"
+import BettingForm from "./BettingForm";
+import BettingResults from "./BettingResults";
 
 function App() {
   return (
     <>
-      <BettingForm/>
+      <BettingForm />
+      <BettingResults />
     </>
-      
-  )
+  );
 }
-export default App
+export default App;
